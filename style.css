@@ -51,7 +51,7 @@ header .menu {
 }
 
 .resume {
-    height: 100vh;
+    height: 80vh;
     align-items: center;
     justify-content: space-between;
 }
@@ -84,6 +84,8 @@ header .menu {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 
 #quem-somos h2{
@@ -119,12 +121,12 @@ header .menu {
 #servicos{
     flex-direction: column;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 105px;
 }
 #servicos h2{
     color: #fff;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 .list-servicos{
     display: flex;
@@ -162,8 +164,8 @@ header .menu {
 
 #planos{
     flex-direction: column;
-    min-height: 100vh;
-    padding-top: 50px;
+    min-height: 80vh;
+    justify-content: center;
 }
 #planos h2{
     font-size: 32px;
@@ -265,7 +267,7 @@ footer .footer{
     #quem-somos{
         flex-direction: column-reverse;
         justify-content: space-around;
-        height: 100vh;
+        height: 80vh;
     }
     #quem-somos img{
         min-width: 320px;
@@ -273,6 +275,7 @@ footer .footer{
     }
     .quem-somos, #servicos h2{
         padding: 0 0 50px 50px;
+        margin-bottom: 0;
     }
     #servicos{
         padding-bottom: 0;
@@ -288,6 +291,9 @@ footer .footer{
     .item-servico img{
         width: 70%;
         margin: auto;
+    }
+    #planos {
+        padding-top: 50px;
     }
     #planos h2{
         padding: 0 0 50px 50px;
