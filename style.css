@@ -258,6 +258,7 @@ footer .footer{
     .resume{
         flex-direction: column-reverse;
         justify-content: center;
+        height: 90vh;
     }
     
     .resume .text-resume {
